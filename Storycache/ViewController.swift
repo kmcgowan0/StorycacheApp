@@ -41,9 +41,9 @@ class ViewController: UIViewController {
         myMap.setUserTrackingMode(.Follow, animated: true)
         
         let bournemouthPier = CLLocationCoordinate2D(latitude: 50.716098, longitude: -1.875780)
-        let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 500, identifier: "bournemouth")
+        let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 100, identifier: "bournemouth")
         let bournemouthHill = CLLocationCoordinate2D(latitude: 50.711976, longitude: -1.893257)
-        let bournemouthHillRegion = CLCircularRegion(center: bournemouthHill, radius: 500, identifier: "bournemouthHill")
+        let bournemouthHillRegion = CLCircularRegion(center: bournemouthHill, radius: 100, identifier: "bournemouthHill")
         let bournemouthArea = CLCircularRegion(center: bournemouthPier, radius: 5000, identifier: "bournemoutharea")
         locationManager.startMonitoringForRegion(bournemouthPierRegion)
         locationManager.startMonitoringForRegion(bournemouthHillRegion)

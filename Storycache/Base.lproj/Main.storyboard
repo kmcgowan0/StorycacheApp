@@ -28,7 +28,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woy-Ck-o1c">
-                                <rect key="frame" x="325" y="410" width="87" height="30"/>
+                                <rect key="frame" x="349" y="413" width="99" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="View Story &gt;">
                                     <color key="titleColor" red="0.93333333330000001" green="0.55294117649999996" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -37,25 +38,32 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40Z-0G-U6X">
-                                <rect key="frame" x="370" y="390" width="42" height="21"/>
+                                <rect key="frame" x="397" y="393" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;How I Met Your Mother&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTF-X8-tN5">
+                                <rect key="frame" x="147" y="393" width="190" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;This is a Title&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTF-X8-tN5">
-                                <rect key="frame" x="147" y="390" width="115" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;A Day at the Beach&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gl-kT-GEh">
+                                <rect key="frame" x="147" y="444" width="159" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;This is another Title&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gl-kT-GEh">
-                                <rect key="frame" x="147" y="441" width="165" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NU-PV-MOn">
+                                <rect key="frame" x="397" y="444" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZm-S1-rHv">
-                                <rect key="frame" x="325" y="465" width="87" height="30"/>
+                                <rect key="frame" x="347" y="464" width="103" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="View Story &gt;">
                                     <color key="titleColor" red="0.93333333330000001" green="0.55294117649999996" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -63,22 +71,16 @@
                                     <segue destination="UrE-h0-cTA" kind="show" id="PNJ-dt-eFP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NU-PV-MOn">
-                                <rect key="frame" x="370" y="441" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9Gl-kT-GEh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-70.5" id="3Bd-b1-aUH"/>
-                            <constraint firstItem="woy-Ck-o1c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="68.5" id="4UK-hy-ppy"/>
-                            <constraint firstItem="NTF-X8-tN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-95.5" id="9q4-iM-jIO"/>
-                            <constraint firstItem="6NU-PV-MOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="91" id="HHG-tM-mVR"/>
-                            <constraint firstItem="zZm-S1-rHv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="68.5" id="gsV-dg-iiE"/>
-                            <constraint firstItem="b7S-ar-9vo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-88" id="sCP-Sf-Te4"/>
-                            <constraint firstItem="40Z-0G-U6X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="91" id="sEY-Rs-v6b"/>
+                            <constraint firstItem="NTF-X8-tN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-58" id="4F1-06-78Y"/>
+                            <constraint firstItem="b7S-ar-9vo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-88" id="6a4-wJ-7Ic"/>
+                            <constraint firstItem="6NU-PV-MOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="118" id="93J-Qh-MDQ"/>
+                            <constraint firstItem="zZm-S1-rHv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="98.5" id="KOf-Ak-dwT"/>
+                            <constraint firstItem="9Gl-kT-GEh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-73.5" id="LZY-OQ-m7c"/>
+                            <constraint firstItem="40Z-0G-U6X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="118" id="cFf-Qa-LLS"/>
+                            <constraint firstItem="woy-Ck-o1c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="98.5" id="zMv-Pd-2BQ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kMb-c3-u5x"/>

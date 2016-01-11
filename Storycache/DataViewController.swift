@@ -32,7 +32,7 @@ class DataViewController: UIViewController {
         UIImage(named: "1story4.jpg"),
         UIImage(named: "1story5.jpg"),
         UIImage(named: "1story6.jpg"),
-        UIImage(named: "2story1.jpg"),
+        UIImage(named: "1story7.jpg"),
         UIImage(named: "credits.png")
     ]
     
