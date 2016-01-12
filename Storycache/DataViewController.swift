@@ -26,13 +26,13 @@ class DataViewController: UIViewController {
     
     let images = [
         UIImage(named: "title1.png"),
-        UIImage(named: "1story1.jpg"),
-        UIImage(named: "1story2.jpg"),
+        UIImage(named: "1story1.jpg"), //“Bournemouth Beach” by Robertcourtman, licensed under CC BY 4.0.
+        UIImage(named: "1story2.jpg"), //“Beach Huts near Bournemouth Pier” by  Paul Gillett, licensed under CC BY-SA.
         UIImage(named: "1story3.jpg"),
         UIImage(named: "1story4.jpg"),
         UIImage(named: "1story5.jpg"),
         UIImage(named: "1story6.jpg"),
-        UIImage(named: "1story7.jpg"),
+        UIImage(named: "1story7.jpg"), //“Happy Family” by David Amsler, licensed under CC BY 2.0.
         UIImage(named: "credits.png")
     ]
     

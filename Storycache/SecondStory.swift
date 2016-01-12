@@ -29,10 +29,10 @@ class SecondStory: UIViewController {
     
     let images2 = [
         UIImage(named: "title2.png"),
-        UIImage(named: "2story1.jpg"),
-        UIImage(named: "2story2.jpg"),
-        UIImage(named: "2story3.jpg"),
-        UIImage(named: "2story4.jpg"),
+        UIImage(named: "2story1.jpg"), //“Haeundae Beach” by Sirocumo, licensed under CC0.
+        UIImage(named: "2story2.jpg"), //"Bournemouth: a surfer by the pier” by Chris Downer, licensed under CC BY-SA.
+        UIImage(named: "2story3.jpg"), //“Children’s Sand Castle” by Ben_Kerckx, licensed under CC0.
+        UIImage(named: "2story4.jpg"), //“Sunglasses” by antriksh, licensed under CC0.
         UIImage(named: "credits.png")
     ]
     
