@@ -4,7 +4,10 @@ import CoreLocation
 import Foundation
 
 
+
 class ViewController: UIViewController {
+    
+    
     
     //show distance from cache
     
@@ -24,6 +27,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+        
+        let settings = UIUserNotificationSettings(forTypes: .Alert, categories: nil)
+        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+        
     
         button.hidden = true
         secondBtn.hidden = true
@@ -54,6 +63,25 @@ class ViewController: UIViewController {
      
     }
     
+}
+
+func scheduleLocal(sender: AnyObject) {
+    let settings = UIApplication.sharedApplication().currentUserNotificationSettings()
+    
+    if settings!.types == .None {
+        let ac = UIAlertController(title: "Can't schedule", message: "Either we don't have permission to schedule notifications, or we haven't asked yet.", preferredStyle: .Alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+        presentViewController(ac, animated: true, completion: nil)
+        return
+    }
+    
+    let notification = UILocalNotification()
+    notification.fireDate = NSDate(timeIntervalSinceNow: 5)
+    notification.alertBody = "You found a story!"
+    notification.alertAction = "swipe to unock"
+    notification.soundName = UILocalNotificationDefaultSoundName
+    notification.userInfo = ["CustomField1": "w00t"]
+    UIApplication.sharedApplication().scheduleLocalNotification(notification)
 }
 
 
