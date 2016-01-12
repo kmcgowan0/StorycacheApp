@@ -1,3 +1,5 @@
+//Copyright Katie Mcgowan, 2015
+
 import UIKit
 import MapKit
 import CoreLocation
