@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--StoryCache-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Storycache" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="StoryCache" id="BYZ-38-t0r" customClass="ViewController" customModule="Storycache" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="1870" y="568"/>
         </scene>
-        <!--SecondStory-->
+        <!--Second Story-->
         <scene sceneID="f0H-qF-2WF">
             <objects>
-                <viewController title="SecondStory" id="UrE-h0-cTA" customClass="SecondStory" customModule="Storycache" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UrE-h0-cTA" customClass="SecondStory" customModule="Storycache" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="N2O-61-NDD"/>
                         <viewControllerLayoutGuide type="bottom" id="bvv-2z-SN2"/>
@@ -292,10 +292,10 @@
             </objects>
             <point key="canvasLocation" x="3343" y="568"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--StoryCache-->
         <scene sceneID="sPH-b6-E5x">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eZk-pc-kZR" sceneMemberID="viewController">
+                <navigationController title="StoryCache" automaticallyAdjustsScrollViewInsets="NO" id="eZk-pc-kZR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="W5o-4X-FkE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
