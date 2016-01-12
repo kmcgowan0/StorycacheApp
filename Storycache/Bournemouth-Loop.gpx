@@ -6,10 +6,14 @@
         <name>Bournemouth Pier</name>
         <time>2014-09-24T14:55:34Z</time>
     </wpt>
-<!--    <wpt lat="50.711976" lon="-1.893257">-->
-<!--        <name>Bournemouth Hill</name>-->
-<!--        <time>2014-09-24T14:55:50Z</time>-->
-<!--    </wpt>-->
+    <wpt lat="50.713373" lon="-1.888678">
+        <name>Bournemouth Hill</name>
+        <time>2014-09-24T14:55:50Z</time>
+    </wpt>
+    <wpt lat="50.716098" lon="-1.875780">
+        <name>Bournemouth Pier</name>
+        <time>2014-09-24T14:56:00Z</time>
+    </wpt>
 
     
 </gpx>

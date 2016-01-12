@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         let settings = UIUserNotificationSettings(forTypes: .Alert, categories: nil)
         UIApplication.sharedApplication().registerUserNotificationSettings(settings)
         
+        
+        
     
         button.hidden = true
         secondBtn.hidden = true
@@ -51,7 +53,7 @@ class ViewController: UIViewController {
         
         let bournemouthPier = CLLocationCoordinate2D(latitude: 50.716098, longitude: -1.875780)
         let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 100, identifier: "bournemouth")
-        let bournemouthHill = CLLocationCoordinate2D(latitude: 50.711976, longitude: -1.893257)
+        let bournemouthHill = CLLocationCoordinate2D(latitude: 50.713373, longitude: -1.888678)
         let bournemouthHillRegion = CLCircularRegion(center: bournemouthHill, radius: 100, identifier: "bournemouthHill")
         let bournemouthArea = CLCircularRegion(center: bournemouthPier, radius: 5000, identifier: "bournemoutharea")
         locationManager.startMonitoringForRegion(bournemouthPierRegion)
@@ -59,30 +61,21 @@ class ViewController: UIViewController {
         locationManager.startMonitoringForRegion(bournemouthArea)
         
         
+        let localNotification:UILocalNotification = UILocalNotification()
         
+        localNotification.alertAction = "Testing notifications on iOS8"
+        localNotification.alertBody = "You found a story!"
+        localNotification.fireDate = NSDate(timeIntervalSinceNow: 10)
+        
+        
+        UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
      
     }
     
 }
 
-func scheduleLocal(sender: AnyObject) {
-    let settings = UIApplication.sharedApplication().currentUserNotificationSettings()
-    
-    if settings!.types == .None {
-        let ac = UIAlertController(title: "Can't schedule", message: "Either we don't have permission to schedule notifications, or we haven't asked yet.", preferredStyle: .Alert)
-        ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-        presentViewController(ac, animated: true, completion: nil)
-        return
-    }
-    
-    let notification = UILocalNotification()
-    notification.fireDate = NSDate(timeIntervalSinceNow: 5)
-    notification.alertBody = "You found a story!"
-    notification.alertAction = "swipe to unock"
-    notification.soundName = UILocalNotificationDefaultSoundName
-    notification.userInfo = ["CustomField1": "w00t"]
-    UIApplication.sharedApplication().scheduleLocalNotification(notification)
-}
+
+
 
 
 
@@ -116,6 +109,7 @@ extension ViewController: CLLocationManagerDelegate {
         
         if region.identifier == "bournemouth" {
             button.hidden = false
+            
             
            
         }
