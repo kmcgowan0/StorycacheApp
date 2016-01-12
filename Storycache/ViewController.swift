@@ -39,11 +39,11 @@ class ViewController: UIViewController {
         button.hidden = true
         secondBtn.hidden = true
         
-        for story in stories {
-            print(story.title)
-            print(story.images.count)
-            print(story.images)
-        }
+//        for story in stories {
+//            print(story.title)
+//            print(story.images.count)
+//            print(story.images)
+//        }
         
         locationManager.requestAlwaysAuthorization()
         locationManager.delegate = self
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         
         let localNotification:UILocalNotification = UILocalNotification()
         
-        localNotification.alertAction = "Testing notifications on iOS8"
+        localNotification.alertAction = "View"
         localNotification.alertBody = "You found a story!"
         localNotification.fireDate = NSDate(timeIntervalSinceNow: 10)
         
@@ -91,7 +91,7 @@ extension ViewController: CLLocationManagerDelegate {
             print(newLocation)
             newLocation.distanceFromLocation(CLLocation(latitude: 50.716098, longitude: -1.875780))
             distance.text = "\(Double(newLocation.distanceFromLocation(CLLocation(latitude: 50.716098, longitude: -1.875780))).roundToPlaces(1))m"
-            distance2.text = "\(Double(newLocation.distanceFromLocation(CLLocation(latitude: 50.711976, longitude: -1.893257))).roundToPlaces(1))m"
+            distance2.text = "\(Double(newLocation.distanceFromLocation(CLLocation(latitude: 50.713373, longitude: -1.888678))).roundToPlaces(1))m"
         }
         
         
